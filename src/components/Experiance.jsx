@@ -1,9 +1,9 @@
 import React from "react";
-import html from "../../public/html.png";
-import css from "../../public/css.jpg";
-import javascript from "../../public/javascript.png";
-import express from "../../public/express.png";
-import reactjs from "../../public/reactjs.png";
+import html from "/public/html.png";
+import css from "/public/css.jpg";
+import javascript from "/public/javascript.png";
+import express from "/public/express.png";
+import reactjs from "/public/reactjs.png";
 
 function Experiance() {
   const cardItem = [
