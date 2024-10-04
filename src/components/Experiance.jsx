@@ -4,6 +4,9 @@ import css from "/css.jpg";
 import javascript from "/javascript.png";
 import express from "/express.png";
 import reactjs from "/reactjs.png";
+import nodejs from "/node.png";
+import tailwind from "/tailwind.png";
+import github from "/github.png";
 
 function Experiance() {
   const cardItem = [
@@ -14,23 +17,38 @@ function Experiance() {
     },
     {
       id: 2,
-      logo: css,
-      name: "CSS",
+      logo: express,
+      name: "Express",
     },
     {
       id: 3,
+      logo: reactjs,
+      name: "ReactJS",
+    },
+    {
+      id: 4,
+      logo: nodejs,
+      name: "NodeJS",
+    },
+    {
+      id: 5,
       logo: javascript,
       name: "JavaScript",
     },
     {
-        id: 4,
-        logo: express,
-        name: "Express",
+      id: 6,
+      logo: css,
+      name: "CSS",
     },
     {
-        id: 5,
-        logo: reactjs,
-        name: "ReactJS",
+      id: 7,
+      logo: tailwind,
+      name: "Tailwind",
+    },
+    {
+      id: 8,
+      logo: github,
+      name: "GitHub",
     },
   ];
   return (

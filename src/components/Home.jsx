@@ -1,12 +1,14 @@
 import React from 'react'
-import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaWhatsappSquare } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
 import { ReactTyped } from "react-typed";
+import { FaGithub } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
+
+
 
 
 
@@ -30,7 +32,7 @@ function Home() {
                         </div>
                         <br />
                         <p className='text-sm md:text-md text-justify'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. A qui nam pariatur veniam tenetur ad doloribus vel quas! Fugiat quis autem eum eius quidem perspiciatis dolores doloribus numquam dolorem a?
+                            I have 1 years of experience building and desgining software. Currentily, i love to work on web application using technologies like React and Tailwind.
                         </p>
                         <br />
                         {/* social media icons */}
@@ -40,18 +42,18 @@ function Home() {
                                 <h1 className='font-bold'>Available on</h1>
                                 <ul className='flex space-x-5'>
                                     <li>
-                                        <a href="https://www.linkedin.com" target='-blank'>
+                                        <a href="https://www.linkedin.com/in/sujal-varsadiya-24750a238/" target='-blank'>
                                             <FaLinkedin className='text-2xl cursor-pointer' />
                                         </a>
                                     </li>
                                     <li>
-                                    <a href="https://www.whatsapp.com" target='-blank'>
-                                            <FaWhatsappSquare className='text-2xl cursor-pointer' />
+                                    <a href="https://github.com/sujalvarsadiya" target='-blank'>
+                                            <FaGithub className='text-2xl cursor-pointer' />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.faceboook.com" target='-blank'>
-                                            <FaFacebookSquare className='text-2xl cursor-pointer' />
+                                        <a href="mailto:sujalvarsadiya9018@gmail.com?subject=Mail%20Subject&body=Hello%20there!" target='-blank'>
+                                            <IoIosMail className='text-2xl cursor-pointer' />
                                         </a>
                                     </li>
                                 </ul>
