@@ -1,74 +1,89 @@
 import React from "react";
+import AboutImage from "/photo.jpeg";
 
-function About() {
+const About = () => {
   return (
-    <div
-      name="About"
-      className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20"
-    >
-      <div>
-        <h1 className="text-3xl font-bold mb-5">About</h1>
-        <p>
-          Hello, I'm Akhil, a passionate Web developer with a keen eye for MERN
-          Stack . With a background in IT, I strive to create impactful and
-          visually stunning Software solutions that leave a lasting impression.
-        </p>
-        <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          Education & Training
-        </h1>
-        <span>
-          [Degree/Certification], [Institution], [Year] [Degree/Certification],
-          [Institution], [Year] [Relevant Course], [Platform/Institution],
-          [Year]
-        </span>
-        <br />
-        <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          Skills & Expertise
-        </h1>
-        <span>
-          Proficient in [Programming Languages] Experienced with [Software
-          Tools/Technologies] Strong grasp of [Design Principles/Concepts]
-          Excellent problem-solving skills Effective communicator and
-          collaborator
-        </span>
-        <br />
-        <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          Professional Experience
-        </h1>
-        <span>
-          [Job Title], [Company/Organization], [Dates] [Brief description of
-          responsibilities and achievements] [Job Title],
-          [Company/Organization], [Dates] [Brief description of responsibilities
-          and achievements] [Freelance/Contract Work], [Client/Organization],
-          [Dates] [Brief description of projects and contributions]
-        </span>
-        <br />
-        <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          Achievements & Awards
-        </h1>
-        <span>
-          [Award/Recognition], [Organization/Institution], [Year] [Achievement],
-          [Organization/Platform], [Year]
-        </span>
-        <br />
-        <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          Mission Statement
-        </h1>
-        <p>
-          My mission is to leverage my skills and creativity to deliver
-          innovative [Your Field] solutions that exceed client expectations and
-          contribute positively to the digital landscape. I am committed to
-          continuous learning and growth, always seeking new challenges and
-          opportunities to expand my horizons.
-        </p>
+    <div name="About"
+      className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20">
+      <div className="container mx-auto px-8 md:px-16 lg:px-24">
+        <h2 className="text-4xl font-bold text-center mb-12">About Me</h2>
+        <div className="flex flex-col md:flex-row items-center md:space-x-12">
+          <img
+            src={AboutImage}
+            alt=""
+            className="w-72 h-80 rounded object-cover mb-8 md:mb-0"
+          />
+          <div className="flex-1">
+            <p className="text-lg mb-8">
+              I am a passionate Web developer with a focus on building
+              modern and responsive web applications. With a strong foundation
+              in both frontend and backend technologies, I strive to create
+              seamless and efficient user experiences.
+            </p>
+            <div className="space-y-4">
+              <div className="flex items-center">
+                <label htmlFor="htmlandcss" className="w-2/12">
+                  Tailwind CSS
+                </label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div
+                    className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
+                    transform transition-transform duration-300 hover:scale-105 w-11/12"
+                  ></div>
+                </div>
+              </div>
+              <div className="flex items-center">
+                <label htmlFor="htmlandcss" className="w-2/12">
+                  React JS
+                </label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div
+                    className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
+                    transform transition-transform duration-300 hover:scale-105 w-10/12"
+                  ></div>
+                </div>
+              </div>
+              <div className="flex items-center">
+                <label htmlFor="htmlandcss" className="w-2/12">
+                  Java Script
+                </label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div
+                    className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
+                    transform transition-transform duration-300 hover:scale-105 w-9/12"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <div className="mt-12 flex justify-between text-center">
+              <div>
+                <h3 className="text-2xl font-bold text-transparent bg-clip-text 
+                bg-gradient-to-r from-green-400 to-blue-500">
+                  1+
+                </h3>
+                <p>Years Experience</p>
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold text-transparent bg-clip-text 
+                bg-gradient-to-r from-green-400 to-blue-500">
+                  3+
+                </h3>
+                <p>Projects Completed</p>
+              </div>
+              {/* <div>
+                <h3 className="text-2xl font-bold text-transparent bg-clip-text 
+                bg-gradient-to-r from-green-400 to-blue-500">
+                  10+
+                </h3>
+                <p>Happy Clients</p>
+              </div> */}
+              <div></div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
-}
+};
 
-export default About;
+export default About
